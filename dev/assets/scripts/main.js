@@ -41,6 +41,15 @@ papp.displayPetMedia = function(media) {
                 .addClass('petImage carouselItem')
                 .attr('src', photo.$t)
                 .appendTo($imageCarousel);
+
+                $('<button/>')
+                .data('blah', 'blahvlaue')
+                .append('<i/>')
+                    .addClass('fa fa-times')
+                    .attr('aria-hidden', 'true')
+                .appendTo()
+                
+
             }
         }); 
     }
